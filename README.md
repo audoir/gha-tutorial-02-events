@@ -129,7 +129,7 @@ git push origin main
 git checkout -b feature/test-pr-event
 
 # Make some changes
-echo "# PR test change" >> src/App.jsx
+echo "// PR test change" >> src/App.jsx
 
 # Commit and push the new branch
 git add .
